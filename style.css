@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #515050;
+    display:flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar h1{
+    margin-right: 260px;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar a{
+    margin: 0 30px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+
+}
+
+.main p{
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: white;
+    font-size: 20px;
+}

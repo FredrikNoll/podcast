@@ -26,22 +26,37 @@
 }
 
 .audio{
-    margin:20px auto ;
+    margin:20px auto;
     
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
-.main{
-    
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image {
+    width: 15%; 
 }
 
 .main img{
-    border-radius: 50%;
-    border: 3px solid;
-    border-color: black;
-    display: flex;
-    align-items: center;
-    float: left;
-    margin: 0px 20px;
+    width: 100%;
+    /* border-radius: 50%; */
+    /* border: 3px solid;
+    border-color: black; */
+    margin: 10px 0px;
 }
+
+.episode {
+    margin-left: 3%;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+

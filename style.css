@@ -3,7 +3,7 @@
 }
 
 .navbar{
-    background-color: #515050;
+    background-color: #303030;
     display:flex;
     height: 100px;
     width: 100%;
@@ -13,13 +13,13 @@
 }
 
 .navbar h1{
-    margin-right: 260px;
+    margin-right: 30%;
     color: white;
     font-size: 30px;
 }
 
 .navbar a{
-    margin: 0 30px;
+    margin: 0 4%;
     font-size: 25px;
     color: white;
     text-decoration: none;
@@ -29,6 +29,10 @@
     display: flex;
 }
 
+.main img{
+    width: 100%;
+}
+
 .main p{
     width: 30%;
     position: absolute;
@@ -36,4 +40,13 @@
     left: 60%;
     color: white;
     font-size: 20px;
+}
+
+.main h1{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    color: white;
+    font-size: 30px;
 }

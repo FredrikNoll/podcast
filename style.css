@@ -1,6 +1,12 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
 
 .navbar{
     background-color: #303030;
@@ -49,4 +55,22 @@
     left: 60%;
     color: white;
     font-size: 30px;
+}
+
+.formsHolder {
+    margin: auto;
+    width: 400px;
+    color: white;
+    display: block;
+    margin-top: 55px;
+}
+
+.contactDescription {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+input text {
+    margin-bottom: 10px;
+    width: 100%;
 }
